@@ -5,8 +5,11 @@
 *.tfplan
 crash.log
 crash.*.log
-*.tfvars
 
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+!example.tfvars
 
 # Secrets / keys
 *.pem
